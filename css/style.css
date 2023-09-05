@@ -4,7 +4,7 @@
     
 }
 /* font */
-.container h1,h2,h3,p,a,span {
+body h1,h2,h3,p,a,span {
     font-family: 'Inter', sans-serif;
 }
 /* slider */
@@ -31,6 +31,8 @@
 
     
 }
+/* slider end */
+
 /* donation amount start */
 .donate-today{
     margin-top: 50px;
@@ -103,7 +105,8 @@ margin-top: 50px;
     padding: 7px;
     color: white;
   }
-  
+  /* donation amount end */
+
   /* donate plan box with icon */
 
   .donate-plan{
@@ -146,10 +149,11 @@ margin-top: 50px;
  
         width:200px;
       }
+      /* donate plan box with icon end */
+
 
       /* /* image with text start */
 
-      /* image on right */
       .image-on-right{
         margin:80px;
         display: flex;
@@ -192,6 +196,8 @@ margin-top: 50px;
        
         
       }
+/*       /* /* image with text end */
+
       /* newsletter */
 .newsletter{
   display: flex;
@@ -243,15 +249,15 @@ background: var(--default-black, #0B0D17);
 footer h1{
   color: #FF5959;
   font-feature-settings: 'clig' off, 'liga' off;
-  font-family: Lobster;
-  font-size: 36px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 44px; /* 122.222% */
   letter-spacing: 0.5px;
-  font-size: 26px;
+  font-family: 'Lobster', cursive;
 }
 footer p{
   color: white;
-  font-size: 16px;
+  font-size: 10px;
 }
+/* footer end */
