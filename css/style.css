@@ -9,28 +9,35 @@ body h1,h2,h3,p,a,span {
 }
 /* slider */
 .slider {
+  
     height: 500px;
     width: 100%;
+    
     background-image: url(../img/donation1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
+    
     flex-direction: column;
+    
     color: white;
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
+
 .slider a{
     text-decoration: none;
     background-color: #FF5959;
     border-radius: 5px;
     padding: 7px;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: #0B0D17 0px 0px 10px 1px;
 
     
 }
+
 /* slider end */
 
 /* donation amount start */
@@ -71,6 +78,7 @@ body h1,h2,h3,p,a,span {
     border: 2px solid #ff5959;
     background: #FEE;
     padding: 40px;
+    box-shadow: #0B0D17 5px 5px 10px 1px;
 }
 .other-amount{
     color: #B3B3B3;
@@ -82,6 +90,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 155.556% */
 margin-top: 50px;
+
 }
 
 
@@ -104,10 +113,12 @@ margin-top: 50px;
     border-radius: 5px;
     padding: 7px;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: #0B0D17 0px 0px 10px 1px;
   }
   /* donation amount end */
 
-  /* donate plan box with icon */
+  /* our donate plan box with icon */
 
   .donate-plan{
 
@@ -125,6 +136,7 @@ margin-top: 50px;
             column-gap: 20px;
             font-size: 16px;
             
+            
     }
       
       .icon-box-1 {
@@ -132,13 +144,14 @@ margin-top: 50px;
         background: rgba(79, 157, 166, 0.10);
         width: 200px;
         padding: 30px;
+        box-shadow: #0B0D17 5px 5px 10px 2px;
 
       }
       .icon-box-2 {
         border-radius: 10px;
         background: rgba(119, 2, 244, 0.1);
         padding: 30px;
-    
+        box-shadow: #0B0D17 5px 5px 10px 2px;
         width:200px;
       }
 
@@ -146,7 +159,7 @@ margin-top: 50px;
         border-radius: 10px;
         background: rgba(103, 233, 10, 0.1);
         padding: 30px;
- 
+        box-shadow: #0B0D17 5px 5px 10px 2px;
         width:200px;
       }
       /* donate plan box with icon end */
@@ -183,6 +196,8 @@ margin-top: 50px;
             padding: 7px;
             color: white;
             margin-right: 220px;
+            font-family: 'Roboto', sans-serif;
+            box-shadow: #0B0D17 0px 0px 10px 1px;
           
       }
       .text-and-button p{
@@ -193,9 +208,7 @@ margin-top: 50px;
       .image-on-left{
         margin:80px;
         display: flex;
-       
-        
-      }
+       }
 /*       /* /* image with text end */
 
       /* newsletter */
@@ -204,7 +217,7 @@ margin-top: 50px;
   justify-content: center;
 }
 .newsletter-box{
-  height: 50px;
+  height: 80px;
   width: 500px;
   background: #FFF4D6;
   display: flex;
@@ -213,21 +226,29 @@ margin-top: 50px;
 }
 
 .newsletter-box input{
-  height: 10px;
+  height: 15px;
   width: 250px;
   padding: 7px;
-  
-
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+  background: #D9D9D9;
+  box-shadow: #0B0D17 5px 5px 10px 2px;
 }
 
 .newsletter-box a{
+  
+  margin-left:0px;
   text-decoration: none;
   background-color: #FF5959;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  box-shadow: #0B0D17 5px 5px 10px 2px;
+
   padding: 7px;
   color: white;
   height: 15px;
+  border-radius: 0px 50px 50px 0px;
+  
 
   
 }
@@ -236,6 +257,7 @@ margin-top: 50px;
 /* footer */
 
 footer{
+  
 margin-top: 50px;
 display: flex;
 width: 100%;
